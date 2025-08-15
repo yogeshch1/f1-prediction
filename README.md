@@ -54,18 +54,24 @@ venv\Scripts\activate     # Windows
 ```
 
 ### 3️⃣ Install dependencies
+```
 pip install -r requirements.txt
-
+```
 
 ### 4️⃣ Collect historical F1 data
+```
 python src/collect_f1_history.py
+```
 
 ### 5️⃣ Prepare features
+```
 python src/prepare_features.py
+```
 
 ### 6️⃣ Train the model
+```
 python src/train_model.py
-
+```
 
 ### 📊 Example Model Output
 
@@ -87,7 +93,5 @@ Top Features:
 This project is licensed under the MIT License.
 
 ### 🙌 Acknowledgements
-```
 Jolpica F1 API for race data
 Scikit-learn for model building
-```
