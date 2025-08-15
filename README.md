@@ -93,5 +93,5 @@ Top Features:
 This project is licensed under the MIT License.
 
 ### 🙌 Acknowledgements
-Jolpica F1 API for race data.  
-Scikit-learn for model building
+[Jolpica F1 API](https://github.com/jolpica/jolpica-f1) for race data  
+[Scikit-learn](https://scikit-learn.org/stable/) for model building
