@@ -19,6 +19,7 @@ Predict upcoming Formula 1 race winners using historical race data and machine l
 ---
 
 ## 📂 Project Structure
+```
 f1-prediction/
 │
 ├── src/                   # Source scripts
@@ -33,21 +34,24 @@ f1-prediction/
 ├── README.md
 ├── requirements.txt
 └── venv/                  # Virtual environment (ignored)
-
+```
 
 ---
 
 ## 🚀 How to Run
 
 ### 1️⃣ Clone this repository
+```
 git clone https://github.com/yogeshch1/f1-prediction.git
 cd f1-prediction
+```
 
-2️⃣ Create virtual environment
+### 2️⃣ Create virtual environment
+```
 python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate     # Windows
-
+```
 
 ### 3️⃣ Install dependencies
 pip install -r requirements.txt
@@ -65,13 +69,14 @@ python src/train_model.py
 
 ### 📊 Example Model Output
 
+```
 Accuracy: 0.94
 Top Features:
 - grid
 - driver_points_last5
 - driver_avg_finish_last5
 - constructor_points_last5
-
+```
 
 ### 🔮 Next Steps
 - Add predict_next_race.py to forecast winners for upcoming races
@@ -82,5 +87,7 @@ Top Features:
 This project is licensed under the MIT License.
 
 ### 🙌 Acknowledgements
+```
 Jolpica F1 API for race data
 Scikit-learn for model building
+```
