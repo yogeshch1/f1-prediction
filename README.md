@@ -21,17 +21,18 @@ Predict upcoming Formula 1 race winners using historical race data and machine l
 ## 📂 Project Structure
 f1-prediction/
 │
-├── src/ # Source scripts
-│ ├── collect_f1_history.py
-│ ├── prepare_features.py
-│ ├── train_model.py
-│ ├── get_latest_f1_winner.py
+├── src/                   # Source scripts
+│   ├── collect_f1_history.py
+│   ├── prepare_features.py
+│   ├── train_model.py
+│   ├── get_latest_f1_winner.py
 │
-├── data/ 
-├── models/ 
+├── data/                  # Raw/processed datasets (ignored in GitHub)
+├── models/                # Saved models (ignored in GitHub)
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
+└── venv/                  # Virtual environment (ignored)
 
 
 ---
@@ -39,17 +40,18 @@ f1-prediction/
 ## 🚀 How to Run
 
 ### 1️⃣ Clone this repository
-```bash
-git clone https://github.com/YOUR_USERNAME/f1-prediction.git
+git clone https://github.com/yogeshch1/f1-prediction.git
 cd f1-prediction
 
-### 2️⃣ Create virtual environment
+2️⃣ Create virtual environment
 python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate     # Windows
 
+
 ### 3️⃣ Install dependencies
 pip install -r requirements.txt
+
 
 ### 4️⃣ Collect historical F1 data
 python src/collect_f1_history.py
